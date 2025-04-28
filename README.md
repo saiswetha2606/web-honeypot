@@ -1,15 +1,23 @@
-# Simple Honeypot Project
+# Simple Web Honeypot
 
-A basic honeypot implementation to detect and log unauthorized access attempts.
+This is a basic web honeypot designed to trap and log malicious activity.
 
-## Features
-- Listens on configurable ports
-- Logs all connection attempts and received data
-- Responds with customizable fake service banners
-- Easy to extend with new fake services
+## Setup
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/honeypot-project.git
-   cd honeypot-project
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/saiswetha2606/web-honeypot.git
+    cd web-honeypot
+    ```
+2.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  **Run the honeypot:**
+    ```bash
+    python your_honeypot_script.py
+    ```
+
+## Example Interactions and Output
+
+When a potential attacker tries to access a non-existent administrative page (`/admin`), the honeypot might log the following:
