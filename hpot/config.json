@@ -1,0 +1,7 @@
+{
+    "host": "0.0.0.0",
+    "port": 2222,
+    "max_connections": 10,
+    "log_file": "honeypot.log",
+    "banner": "220 Welcome to Fake SSH Server\nVersion 8.2p1 Ubuntu-4ubuntu0.3\n\n"
+}
